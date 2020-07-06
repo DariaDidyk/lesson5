@@ -28,19 +28,49 @@
 
 
 
-function cook() {
-    let product = "lime";
+// function cook() {
+//     let product = "lime";
+//     console.log("Cook", product);
+// }
+
+// function random() {
+//     console.log(Math.floor(Math.random() * 10));
+// }
+
+// cook();
+// product = "apple";
+// cook();
+// product = "tangerine";
+// cook();
+// random();
+// random();
+
+// let product = "tangerine";
+// function cook() {
+//     let product = "lime";
+//     (function abc() {
+//         const product = "qiwi";
+//         console.log("Cook", product);
+//     })();
+//     console.log(product);
+// }
+// function random() {
+//     console.log(Math.floor(Math.random() * 10));
+// }
+// console.log(product);
+// cook();
+// cook();
+
+const product = "tangerine";
+
+function cook(product) {
+    /*
+    var product = 'lime';
+    */
     console.log("Cook", product);
 }
-
-function random() {
+const random = function () {
     console.log(Math.floor(Math.random() * 10));
 }
-
-cook();
-product = "apple";
-cook();
-product = "tangerine";
-cook();
-random();
-random();
+cook("lime");
+console.log(product);
